@@ -1,4 +1,12 @@
+import requests
+from flask import Flask, jsonify, request
 
+
+
+"""
+source: dvf blockchain 
+https://github.com/dvf/blockchain?ref=hackernoon.com
+"""
 
 # Instantiate the Node
 app = Flask(__name__)
